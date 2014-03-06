@@ -20,14 +20,20 @@ h1 {
     text-align: center;
 }
 main {
+    display: flex;
+    flex-direction: row;
+    min-height: 300px;
 }
 nav {
     background-color: hsl(347, 87%, 70%);
- }
+    flex: 1 1 120px;
+}
 article {
+    flex: 5 2 840px;
 }
 aside {
     background-color: hsl(347, 90%, 60%);
+    flex: 1 1 240px;
 }
 footer {
     background-color: hsl(99, 79%, 68%);
